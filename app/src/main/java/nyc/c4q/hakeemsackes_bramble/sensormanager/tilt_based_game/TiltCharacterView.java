@@ -12,16 +12,16 @@ import android.view.View;
 
 public class TiltCharacterView extends View {
 
-    float xPosition;
-    float yPosition;
+    float xPosition = 0;
+    float yPosition = 0;
     private Paint paint;
     private float cRadius;
 
 
     public TiltCharacterView(Context context, float xPosition, float yPosition) {
         super(context);
-        this.xPosition = xPosition;
-        this.yPosition = yPosition;
+        this.xPosition += xPosition;
+        this.yPosition += yPosition;
         paint = new Paint();
     }
 
