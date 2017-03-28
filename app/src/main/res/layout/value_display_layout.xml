@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/sensor_number_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/xvalue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="X"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/yvalue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Y"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/zvalue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Z"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/thetaxvalue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="THETA X"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/thetayvalue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="THETA Y"
+
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/thetazvalue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="THETA Z"
+        android:textSize="30dp" />
+
+</LinearLayout>
