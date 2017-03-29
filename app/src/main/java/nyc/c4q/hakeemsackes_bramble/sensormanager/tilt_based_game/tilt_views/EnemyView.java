@@ -1,4 +1,4 @@
-package nyc.c4q.hakeemsackes_bramble.sensormanager.tilt_based_game;
+package nyc.c4q.hakeemsackes_bramble.sensormanager.tilt_based_game.tilt_views;
 
 import android.content.Context;
 import android.util.AttributeSet;
