@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="nyc.c4q.hakeemsackes_bramble.sensormanager">
 
     <application
@@ -11,7 +12,8 @@
 
         <activity android:name=".GameActivity"
             android:screenOrientation="portrait"
-            android:configChanges="keyboardHidden|screenSize">
+            android:configChanges="keyboardHidden|screenSize"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -26,5 +28,8 @@
             <!--</intent-filter>-->
         </activity>
     </application>
+    <uses-permission android:name="android.permission.HIGH_SAMPLING_RATE_SENSORS"
+        tools:ignore="ManifestOrder" />
+
 
 </manifest>
